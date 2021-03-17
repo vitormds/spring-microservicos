@@ -20,7 +20,6 @@ public class Worker implements Serializable {
 	private Double dailyIncome;
 	
 	public Worker() {
-		
 	}
 
 	public Worker(Long id, String name, Double dailyIncome) {
@@ -29,8 +28,6 @@ public class Worker implements Serializable {
 		this.name = name;
 		this.dailyIncome = dailyIncome;
 	}
-
-
 
 	public Long getId() {
 		return id;
@@ -56,7 +53,6 @@ public class Worker implements Serializable {
 		this.dailyIncome = dailyIncome;
 	}
 
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -80,10 +76,6 @@ public class Worker implements Serializable {
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
-	}
-	
-	
-	
-	
+	}	
 
 }
