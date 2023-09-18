@@ -1,7 +1,5 @@
 <h1 align="center">Microsserviços Java com Spring Boot e Spring Cloud</h1>
 
->[Curso udemy](https://www.udemy.com/course/microsservicos-java-spring-cloud/) criado pelo magnífico professor [Nélio Alves.](https://www.linkedin.com/in/nelio-alves/)
-
 Esse projeto é um sistema composto por vários microsserviços que comunicam entre si de forma **transparente**, **escalável** e com **balanceamento de carga**.
 
 ![modelo-projeto](imagens/modelo-projeto.png)
